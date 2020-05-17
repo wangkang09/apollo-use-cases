@@ -24,7 +24,7 @@ public class PrintLogger {
                 logger.error("我是error级别日志");
                 logger.warn("我是warn级别日志");
                 logger.debug("我是debug级别日志");
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(3);
             }
         });
     }

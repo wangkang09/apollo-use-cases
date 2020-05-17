@@ -1,0 +1,14 @@
+app:
+  id: spring-boot-logger-1
+# set apollo meta server address, adjust to actual address if necessary
+apollo:
+  meta: http://localhost:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
+logging:
+  level:
+    root: debug
+
+
